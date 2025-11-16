@@ -1,5 +1,6 @@
 // Replace after backend deploy:
-const API_BASE = "azure-dna-gc-fastapi-vanilla-dncdbfhbeebxcvhx.australiaeast-01.azurewebsites.net"; // no trailing slash
+const API_BASE = "https://azure-dna-gc-fastapi-vanilla-dncdbfhbeebxcvhx.australiaeast-01.azurewebsites.net";
+
 
 const form = document.getElementById("dna-form");
 const seqEl = document.getElementById("seq");
